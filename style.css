@@ -1,0 +1,150 @@
+*_ {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  background-color: #0a0c1b;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.main1 {
+  display: inline-flex;
+  height: 22rem;
+  width: 27rem;
+
+  margin-left: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  background-color: rgb(28 25 56);
+  border-top-left-radius: .7rem;
+  border-bottom-left-radius: .7rem;
+}
+.main2 {
+  display: inline-flex;
+  height: 22rem;
+  width: 27rem;
+  align-items: center;
+  margin-right: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  background-image: url(/images/image-header-desktop.jpg);
+  border-top-right-radius: .7rem;
+  border-bottom-right-radius: .7rem;
+}
+.color {
+  display: inline-flex;
+  position: absolute;
+  height: 22rem;
+  width: 26.7rem;
+  align-items: center;
+  opacity: 0.4;
+  margin-left: 36.7rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  background-color: rgb(138 43 226);
+  border-top-right-radius: .7rem;
+  border-bottom-right-radius: .7rem;
+}
+
+.main1 h2{
+    color: white;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
+    display: inline-block;
+    height: 6rem;
+    width: 22rem;
+    font-size: 2rem;
+}
+.main1 span{
+    color: blueviolet;
+}
+.main1 p{
+    display: inline-block;
+    position: absolute;
+    margin-top: 10rem;
+    color: rgb(84, 89, 104);
+    font-size: 1rem;
+    width: 20rem;
+    margin-left: 3rem;
+    font-family: sans-serif;
+
+}
+.company{
+    display: inline-block;
+    color: rgb(255 255 255);
+    position: absolute;
+    margin-top: 16rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    margin-left: 3rem;
+    font-family: sans-serif;
+}
+.template{
+    display: inline-block;
+    color: rgb(255 255 255);
+    position: absolute;
+    margin-top: 16rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    margin-left: 10rem;
+    font-family: sans-serif;
+
+}
+.queries{
+    display: inline-block;
+    color: rgb(255 255 255);
+    position: absolute;
+    margin-top: 16rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    margin-left: 17rem;
+    font-family: sans-serif;
+}
+.comp{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(255 255 255);
+    position: absolute;
+    font-size: .7rem;
+    display: inline-block;
+    height: 2rem;
+    margin-top: 17.4rem;
+    margin-left: 3rem;
+}
+.templ{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(255 255 255);
+    position: absolute;
+    font-size: .7rem;
+    display: inline-block;
+    height: 2rem;
+    margin-top: 17.4rem;
+    margin-left: 9.8rem;
+}
+.que{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(255 255 255);
+    position: absolute;
+    font-size: .7rem;
+    display: inline-block;
+    height: 2rem;
+    margin-top: 17.4rem;
+    margin-left: 17.3rem;
+}
+.attribution   {
+    margin-left: 29rem;
+    color: rgb(255 255 255);
+}
+.attribution a{
+    color: aqua;
+  font-family: "segoe print";
+    text-decoration: none;
+}
